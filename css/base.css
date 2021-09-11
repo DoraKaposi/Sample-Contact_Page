@@ -1,0 +1,62 @@
+/**
+ * OVERVIEW
+ *
+ * This project is separated to the following style sheets:
+ *
+ * reset.css....Meyer CSS reset.
+ * base.css.............Global rules and helpers.
+ * layout.css...........CSS rules that control the layout of the page.
+ * components.css.......Own CSS for the components that build up the page.
+ */
+
+ /**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Variables............Globally-available variables.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE STYLES
+ * Background color.....Base background style.
+ * Base font............Base font style.
+ *
+ */
+
+
+
+
+
+/*------------------------------------*\
+  #SETTINGS
+\*------------------------------------*/
+
+:root{
+  font-size:          12px;
+  --bg-primary:       #FFFFFF;
+  --bg-secondary:     #6200EA;
+  --color-primary:    #6200EA;
+  --color-secondary:  #211138;
+  --color-one:        #FFFFFF;
+  --color-two:        #F4F3F5;
+}
+
+*{
+  padding:            0px;
+  margin:             0px;
+  box-sizing:         border-box;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #BASE STYLES
+\*------------------------------------*/
+
+body {
+  background-color:   #F4F3F5;
+  font-family:        'Montserrat', sans-serif;
+  font-size:          1rem;
+  text-align:         left;
+}

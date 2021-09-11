@@ -1,0 +1,299 @@
+/**
+ * CONTENTS
+ *
+ * HEADER
+ *
+ * NAVIGATION
+ *
+ * MAIN CONTENT
+ *** 
+ *** CONTACT US STYLES
+ *** BUTTON STYLES
+ *
+ * FOOTER
+ */
+
+
+
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+.header {
+    background-color: var(--bg-secondary);
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+}
+
+.header__logo{
+    width:            15rem;
+    position:         relative;
+    left:             -16.25rem;
+}
+  
+.header__logo img{
+    width:            15rem;
+    height:           4.16rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #NAVIGATION
+\*------------------------------------*/
+
+.header__top-nav{
+    position:         relative;
+    left:             19.16rem;
+}
+
+.header__top-nav li{
+    display:          inline-block;
+    list-style-type:  none;
+    padding:          0px 2.916rem;
+    line-height:      1.25rem;
+}
+.header__top-nav a{
+  text-decoration:    none;
+  font-weight:        bold;
+  letter-spacing:     0.2rem;
+  text-transform:     uppercase;
+  color:              var(--color-two);
+  opacity:            0.65; 
+}
+
+.header__top-nav .a--active{ 
+  color:              var(--color-one);
+  opacity:            1; 
+  padding-bottom:     2.3rem;
+  border-bottom:      0.416rem var(--color-one) solid;
+}
+
+.header__top-nav a:hover {
+  color:              var(--color-one);
+  opacity:            1;
+  padding-bottom:     2.3rem;
+  border-bottom:      0.416rem var(--color-one) solid;
+  text-decoration:    none;
+  font-weight:        bold;
+  letter-spacing:     0.2rem;
+  text-transform:     uppercase;
+  transition-duration: 0.4s;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - CONTACTS STYLES
+\*------------------------------------*/
+
+.contacts{
+    background-color: var(--bg-primary) ;
+    padding:          5rem;
+    border-radius:    1.25rem;
+}
+
+.contacts-wrapper{
+    width:            35rem;
+    height:           17.5rem;
+}
+
+.map{
+    margin-bottom:    2.5rem;
+}
+
+.contacts a{
+    text-align:       left;
+    color:            var(--color-primary);
+    font-weight:      bold;
+    margin-bottom:    0.83rem;
+    text-decoration:  none;
+    text-transform:   uppercase;
+    letter-spacing:   0.2rem;
+    line-height:      2rem;
+}
+
+.address{
+    text-align:       left;
+    color:            var(--color-primary);
+    letter-spacing:   0.2rem;
+    line-height:      1.25rem;
+    text-transform:   uppercase;
+}
+
+.address__title{
+    font-weight:      bold;
+    margin-bottom:    0.83rem;
+}
+
+.address__text{
+    font-size:        1.16rem;
+    color:            var(--color-secondary);
+    letter-spacing:   0px;
+    line-height:      1.66rem;
+    margin-bottom:    2.5rem;
+    text-transform:   none;
+}
+
+.social-media{
+    margin-top:       2.5rem;
+}
+
+.social-media li{
+    display:          inline-block;
+}
+
+.social-media a{
+  display:            flex;
+  justify-content:    center;
+  align-items:        center;
+  width:              40px;
+  height:             40px;
+  border-radius:      20px;
+  background-color:   var(--bg-secondary);
+  border:             var(--bg-secondary) 2px solid;
+  margin-right:       10px;
+}
+  
+.social-media a:hover{
+    background-color: var(--bg-primary);
+    transition-duration: 0.4s;
+    color:           var(--color-primary);
+}
+
+.social-media i{
+    color:            var(--bg-primary);
+    font-size:        1.66rem;
+    width:            40px;
+    height:           40px;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+}
+  
+.social-media i:hover{
+    color:            var(--bg-secondary);
+    transition-duration: 0.4s;
+}
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - CONTACT US STYLES
+\*------------------------------------*/
+
+.contact-us{
+    background-color: var(--bg-primary) ;
+    padding:          5rem;
+    border-radius:    1.25rem;
+}
+
+.contact-us__title{
+    font-size:        2.66rem;
+    font-weight:      bold;
+    color:            var(--color-secondary);
+    line-height:      4.16rem;
+    margin-bottom:    0.83rem;
+}
+
+.contact-us__text{
+    font-size:        1.66rem;
+    color:            var(--color-secondary);
+    line-height:      2.5rem;
+    height:           7.5rem;
+    margin-bottom:    1.66rem;
+}
+
+ input[type=text]{
+    width:            35rem;
+    margin-bottom:    1.25rem;
+    line-height:      1.5rem;
+    font-size:        1.16rem;
+    border:           0;
+    background-color: var(--color-two);
+    padding:          2rem 1.33rem;
+}
+  
+input[type=text]:focus{
+    border-bottom:    var(--color-primary) solid 0.33rem;
+}
+
+.input--narrow{
+    height:           4.16rem;
+}
+
+.input--wide {
+    height:           12.5rem;
+}
+
+::placeholder{
+    letter-spacing:   0px;
+    color:            var(--color-secondary);
+    opacity:          0.25;
+    position:         absolute;
+    top:              1.33rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN CONTENT - BUTTON STYLES
+\*------------------------------------*/
+
+.btn{
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    font-weight:      bold;
+    width:            35rem;
+    height:           4.16rem;
+    border:           0.16rem solid var(--color-primary);
+    border-radius:    2rem;
+    background-color: var(--bg-secondary);
+    text-align:       center;
+    text-transform:   uppercase;
+    color:            var(--color-one);
+    letter-spacing:   0.2rem;
+    line-height:      1.25rem;
+}
+.btn:hover{
+    background-color: var(--bg-primary);
+    color:            var(--color-primary);
+    transition-duration: 0.4s;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+.footer {
+    background-color: var(--color-secondary);
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+}
+
+.footer__text{
+    font-weight:      bold;
+    letter-spacing:   0.2rem;
+    text-transform:   uppercase;
+    line-height:      1.25rem;
+    text-align:       center;
+    color:           #B2ACBA;
+}
+
+.footer__text--highlighted{
+    color:            var(--color-primary);
+    font-style:       normal;
+}
